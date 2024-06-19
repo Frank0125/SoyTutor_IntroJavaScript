@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    display: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+    width: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,108,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.main {
+    width: 18rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 182, 92);
+    border-radius: 10px;
+}
+
+.botones_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.botones_container button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botones_container button:hover {
+    background-color: #666760;
+    color: #fff;
+}
+
+
+
+.botones_container * {
+    margin: 1rem;
+    border-radius: 4px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+}
+
+h1, p {
+    color: inherit;
+}
+
+#miParrafo {
+    color: #001eff;
+}
+
+#borrar {
+    width: 11rem;
+    height: 10rem;
+    background-image: url("assets/trashcan_icon.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border-radius: 10px;
+    scale: .8;
+}
