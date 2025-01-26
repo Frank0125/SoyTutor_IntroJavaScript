@@ -8,7 +8,7 @@ let boton = document.getElementById('miBoton');
 let parrafo = document.getElementById('miParrafo');
 
 boton.addEventListener('click', function() {
-    parrafo.textContent = "¡Noooo, porque me lo cambias!";
+    parrafo.textContent = "¡CHAAALLLLEEEE, porque me lo cambias!";
     parrafo.style.color = "#d9ff00";
 });
 
